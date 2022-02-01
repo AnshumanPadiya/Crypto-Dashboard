@@ -5,9 +5,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(17, 24, 39);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .app {
+  display: flex;
+  justify-content: center;
+  
+  margin: auto;
+  padding: 1.5em;
+  height: 70vh;
+  width: 80vw;
+
+}
+
+.app h1{
+  display: flex;
+  justify-content: center;
+}
+
+.news-feed {
+  background-color: rgb(204, 204, 231);
+  padding: 0.6em;
+  margin: 0.3em;
+  width: 35%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.news-feed h2 {
+  text-align: center;
+}
+
+.news-feed .article {
+  height: 2.8em;
+  padding: 0.4em;
+  margin: 1em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(171, 206, 236);
+}
+
+.currency-converter {
+  background-color: rgb(230, 223, 211);
+  padding: 0.6em;
+  margin: 0.3em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 65%;
+  
+}
+.exchange-rate {
+  background-color: rgb(221, 230, 221);
+  padding: 0.6em;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-box {
+  height: 30%;
+}
+
+.exchange-rate p {
+  text-align: center;
+} */

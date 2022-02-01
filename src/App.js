@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NewsFeed from './components/NewsFeed.jsx';
+import CurrencyConverter from './components/CurrencyConverter.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h2 className="text-5xl flex justify-center p-5 m-10 text-slate-200">Currency Converter</h2>
+      <div className="app flex justify-center items-center">
+        <CurrencyConverter />
+        <NewsFeed />
+      </div>
+    </>
   );
 }
 
